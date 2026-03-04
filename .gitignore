@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Variables d'environnement (IMPORTANT - ne jamais partager !)
+.env
+
+# ML Models
+ml_engine/saved_models/
+
+# VS Code
+.vscode/
